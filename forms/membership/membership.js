@@ -7,7 +7,7 @@ btnMember.onclick=function(){
   if (memberCheck == true) {
     lblMember.value = "You are already a member"
   } else if (memberCheck == false) {
-    lblMember.value = "You have been added as a member"
+    lblMember.value = "You weren't a member, but you have been added"
     members.unshift(memberName)
   }
 }
